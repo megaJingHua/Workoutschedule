@@ -50,23 +50,24 @@ export function OnboardingToast() {
               <p className="text-sm text-[#1E1208]">
                 點擊
                 <strong className="text-[#E3752D]">
-                  「自訂設定」
+                  「健身菜單設定」
                 </strong>
                 調整課表偏好
               </p>
             </div>
           </div>
+
           <div className="flex gap-3 items-start">
             <div className="w-6 h-6 rounded-full bg-[#E3752D] text-white flex items-center justify-center text-xs font-bold flex-shrink-0">
               2
             </div>
             <div className="flex-1">
               <p className="text-sm text-[#1E1208]">
-                完成動作後按
+                按
                 <strong className="text-[#E3752D]">
-                  「做完按一下」
+                  「抽取健身菜單」
                 </strong>
-                打勾
+                產生健身菜單(或換一組健身菜單)
               </p>
             </div>
           </div>
@@ -76,11 +77,11 @@ export function OnboardingToast() {
             </div>
             <div className="flex-1">
               <p className="text-sm text-[#1E1208]">
-                按
+                完成動作後按
                 <strong className="text-[#E3752D]">
-                  「重新抽取」
+                  「做完按一下」
                 </strong>
-                換一組動作
+                打勾
               </p>
             </div>
           </div>
